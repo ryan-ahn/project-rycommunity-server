@@ -1,0 +1,51 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "extends": [
+    "prettier",
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // 충돌 방지
+    "no-plusplus": "off",
+    "no-alert": "off",
+    "no-shadow": "off",
+    "no-spaced-func": "off",
+    "no-console": "off",
+    "no-use-before-define": "off",
+    "no-underscore-dangle": "off",
+    "no-multi-assign": "off",
+    "new-cap": "off",
+    "func-call-spacing": "off",
+    "linebreak-style": 0,
+    "consistent-return": "off",
+    "default-param-last": "off",
+    "array-callback-return": "off",
+    "import/no-extraneous-dependencies": "off",
+    "node/no-extraneous-require": "off",
+    // 에러 처리
+    "semi-spacing": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 300
+      }
+    ]
+  }
+}
