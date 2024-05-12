@@ -1,5 +1,8 @@
 # Ryan Community Server
 
+<img src="https://storage.googleapis.com/ryan-ahn.appspot.com/public/rycommunity-service.png" alt="thumbnail" />
+
+
 ## Introduction
 
 - Summary: 모임, 컨퍼런스, 커뮤니티 등
